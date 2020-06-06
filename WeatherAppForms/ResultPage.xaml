@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="WeatherAppForms.ResultPage">
+
+    <Frame BackgroundColor="LightYellow" Margin="0,100,0,100" HorizontalOptions="Center" CornerRadius="40">
+
+        <StackLayout Margin="0, 20, 0, 0">
+
+            <Label x:Name="risultati" FontSize = "40" Padding="30"  HorizontalOptions="Center" VerticalOptions="Center" Text="Risultati"></Label>
+
+            <Label x:Name="labeltemperatura" FontSize = "18" HorizontalOptions="Center" VerticalOptions="Center" Text="Temperatura"></Label>
+            <Label x:Name="temperatura" FontSize = "18" TextColor="DarkBlue" HorizontalOptions="Center" VerticalOptions="Center" Text=""></Label>
+
+            <Label x:Name="labelvento" FontSize = "18" HorizontalOptions="Center" VerticalOptions="Center" Text="Velocità del vento"></Label>
+            <Label x:Name="vento" FontSize = "18" HorizontalOptions="Center" TextColor="DarkBlue" VerticalOptions="Center" Text=""></Label>
+
+            <Label x:Name="umiditàlabel" FontSize = "18" HorizontalOptions="Center"  VerticalOptions="Center" Text="Umidità"></Label>
+            <Label x:Name="umidità" FontSize = "18" HorizontalOptions="Center" TextColor="DarkBlue" VerticalOptions="Center" Text=""></Label>
+
+            <Label x:Name="labelvisibilità" FontSize = "18" HorizontalOptions="Center" VerticalOptions="Center" Text="Visibilità"></Label>
+            <Label x:Name="visibilità" FontSize = "18" HorizontalOptions="Center" TextColor="DarkBlue" VerticalOptions="Center" Text=""></Label>
+
+
+        </StackLayout>
+    </Frame>
+
+</ContentPage>
